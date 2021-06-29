@@ -155,21 +155,21 @@
                             <i class="icon-tools"></i>
                             <div class="list-content">
                                 <h3>Crea tu cuenta</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                                <p>Registrarse es el primer paso para poder acceder<br>  a nuestro catalogo vomerc.</p>
                             </div>
                         </div>
                         <div class="list-item">
                             <i class="icon-pictures"></i>
                             <div class="list-content">
                                 <h3>Accede a un producto</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                                <p>Escoge un producto o servicio de los ofrecidos en nuestra <br> app, encontrarás muchos para elegir</p>
                             </div>
                         </div>
                         <div class="list-item">
                             <i class="icon-genius"></i>
                             <div class="list-content">
                                 <h3>Contacta con el vendedor</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                                <p>Ponte en contacto directamente con el vendedor atrevés <br>de nuestro chat y compra sin ningún intermediario.</p>
                             </div>
                         </div>
                     </div>
