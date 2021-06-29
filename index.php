@@ -152,21 +152,25 @@
                     </div>
                     <div class="content-lists">
                         <div class="list-item">
-                            <i class="icon-tools"></i>
+                            <!-- <i class="icon-tools"></i> -->
+                            <!-- <i class="fas fa-mobile-alt"></i> -->
+                            <i class="fas fa-tablet-alt"></i>
                             <div class="list-content">
                                 <h3>Crea tu cuenta</h3>
                                 <p>Registrarse es el primer paso para poder acceder<br>  a nuestro catalogo vomerc.</p>
                             </div>
                         </div>
                         <div class="list-item">
-                            <i class="icon-pictures"></i>
+                            <!-- <i class="icon-pictures"></i> -->
+                            <i class="fas fa-cart-plus"></i>
                             <div class="list-content">
                                 <h3>Accede a un producto</h3>
                                 <p>Escoge un producto o servicio de los ofrecidos en nuestra <br> app, encontrarás muchos para elegir</p>
                             </div>
                         </div>
                         <div class="list-item">
-                            <i class="icon-genius"></i>
+                            <!-- <i class="icon-genius"></i> -->
+                            <i class="fas fa-comments"></i>
                             <div class="list-content">
                                 <h3>Contacta con el vendedor</h3>
                                 <p>Ponte en contacto directamente con el vendedor atrevés <br>de nuestro chat y compra sin ningún intermediario.</p>

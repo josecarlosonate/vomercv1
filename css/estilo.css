@@ -159,6 +159,29 @@ ul a:hover{
     letter-spacing: -0.01em;
 }
 
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.list-item:not(:last-of-type) {
+    margin-bottom: 35px;
+}
+
+.list-item i {
+    background-image: linear-gradient(-45deg, #da9090 0%, #FB0d07 50%, #FB0d07 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.list-content {
+    display: block;
+    padding-left: 25px;
+}
+
+
 @media (max-width: 576px){
     #collapseNa{
         display: none;
