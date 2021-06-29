@@ -11,7 +11,13 @@
 
     <meta name="description" content="Vomerc, es un CENTRO COMERCIAL DIGITAL o marketplace donde, GRATUITAMENTE, podrán interactuar los negocios, emprendedores y personas, en una dinámica de compra y venta de productos y servicios.">
 
-    <meta name="keyword" content="vomerc,comercio">
+    <meta name="keyword" content="vomerc,comercio digital, comercio electronico">
+    <meta name="author" content="ING Jose Rodriguez" />
+
+    <meta name="copyright" content="JR SAS" />
+    <link rel="shortcut icon" href="logo.ico">
+    <meta name="robots" content="index"/>
+    <meta name="theme-color" content="#FB0d07">
 
     <title>VOMERC</title>
 
@@ -104,23 +110,26 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 sm-padding">
                     <div class="promo-content text-center">
-                        <i class="fas fa-lock"></i>
-                        <h3>Altamente asegurado</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do eiusmod tempor incididunt. Appipsum incididunt.</p>
+                        <!-- <i class="fas fa-lock"></i> -->
+                        <img src="img/ico2.svg" alt="">
+                        <h3>Facil contacto</h3>
+                        <p>Permite el contacto entre productores primarios y potenciales clientes mayoritarios y/o minoritarios a nivel nacional.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 sm-padding">
                     <div class="promo-content text-center">
-                        <i class="fas fa-layer-group"></i>
-                        <h3>Fácilmente manejable</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do eiusmod tempor incididunt. Appipsum incididunt.</p>
+                        <!-- <i class="fas fa-layer-group"></i> -->
+                        <img src="img/ico8.svg" alt="">
+                        <h3>Diversidad de productos</h3>
+                        <p>Encuentra una gran variedad de productos ofrecidos cerca de donde te encuentres, disponibles en nuestra app con un solo click.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 sm-padding">
                     <div class="promo-content text-center">
-                        <i class="fas fa-align-justify"></i>
+                        <!-- <i class="fas fa-align-justify"></i> -->
+                        <img src="img/ico6.svg" alt="">
                         <h3>Bien documentado</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do eiusmod tempor incididunt. Appipsum incididunt.</p>
+                        <p>Recibe asesoría personalizada por parte del ofertante, podras interactuar directamente con el vendedor atraves de nuestro chat.</p>
                     </div>
                 </div>
             </div>
@@ -139,27 +148,27 @@
                 <div class="col-lg-6">
                     <div class="section-heading mb-40">
                         <h2>¿Cómo funciona esta aplicación?</h2>
-                        <p>Is amazing, modern and clean landing page for showcase <br> your app anything else.</p>
+                        <p>Vomerc, es un CENTRO COMERCIAL DIGITAL o marketplace donde, GRATUITAMENTE, podrán interactuar los negocios, emprendedores y personas, en una dinámica de compra y venta de productos y servicios.</p>
                     </div>
                     <div class="content-lists">
                         <div class="list-item">
                             <i class="icon-tools"></i>
                             <div class="list-content">
-                                <h3>Create Your Account</h3>
+                                <h3>Crea tu cuenta</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
                             </div>
                         </div>
                         <div class="list-item">
                             <i class="icon-pictures"></i>
                             <div class="list-content">
-                                <h3>Upload Your Picture</h3>
+                                <h3>Accede a un producto</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
                             </div>
                         </div>
                         <div class="list-item">
                             <i class="icon-genius"></i>
                             <div class="list-content">
-                                <h3>Get Your Own Time</h3>
+                                <h3>Contacta con el vendedor</h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
                             </div>
                         </div>
