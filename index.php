@@ -16,7 +16,7 @@
 
     <meta name="copyright" content="JR SAS" />
     <link rel="shortcut icon" href="logo.ico">
-    <meta name="robots" content="index"/>
+    <meta name="robots" content="index" />
     <meta name="theme-color" content="#FB0d07">
 
     <title>VOMERC</title>
@@ -45,9 +45,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+
 
 
 </head>
@@ -67,21 +65,31 @@
                 <div class="navbar-collapse collapse" id="collapseNavbar">
                     <div class="card card-body">
                         <ul class="navbar-nav text-center" id="nav">
-                            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Características</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Capturas de pantalla</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Descargar</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Opiniones</a></li>
+                            <li class="nav-item">
+                                <a  class="nav-link active js-scroll-trigger enlaces" aria-current="page" href="#about">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#feature" class="nav-link js-scroll-trigger enlaces">Características</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#screenshots" class="nav-link js-scroll-trigger enlaces">Capturas de pantalla</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link js-scroll-trigger enlaces">Descargar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link js-scroll-trigger enlaces">Opiniones</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
                 <ul class="nav nav-pills mb-2" id="collapseNa">
-                    <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Inicio</a></li>
-                    <li class="nav-item"><a href="#caracteristicas" class="nav-link">Características</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Capturas de pantalla</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Descargar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Opiniones</a></li>
+                    <li class="nav-item"><a class="nav-link active js-scroll-trigger enlaces" aria-current="page" href="#about">Inicio</a></li>
+                    <li class="nav-item"><a href="#feature" class="nav-link js-scroll-trigger enlaces">Características</a></li>
+                    <li class="nav-item"><a href="#screenshots" class="nav-link js-scroll-trigger enlaces">Capturas de pantalla</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link js-scroll-trigger enlaces">Descargar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link js-scroll-trigger enlaces">Opiniones</a></li>
                 </ul>
 
             </nav>
@@ -89,13 +97,13 @@
     </div>
 
     <!-- seccion 1 -->
-    <section class="sectcion1">
+    <section class="sectcion1" id="about">
         <div class="container">
             <div class="hero-content">
                 <h1>Vomerc comercio digital <br>Totalmente Gratuito</h1>
                 <p>Cualquier persona tendrá acceso a una gran <br> cantidad de productos y servicios.</p>
                 <div class="btn-group">
-                    <a href="#"><img src="img/appstore.png" alt="appstore"></a>
+                    <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore.png" alt="playsotre"></a>
                 </div>
             </div>
@@ -128,7 +136,7 @@
                     <div class="promo-content text-center">
                         <!-- <i class="fas fa-align-justify"></i> -->
                         <img src="img/ico6.svg" alt="">
-                        <h3>Bien documentado</h3>
+                        <h3>Asesoria gratis</h3>
                         <p>Recibe asesoría personalizada por parte del ofertante, podras interactuar directamente con el vendedor atraves de nuestro chat.</p>
                     </div>
                 </div>
@@ -157,7 +165,7 @@
                             <i class="fas fa-tablet-alt"></i>
                             <div class="list-content">
                                 <h3>Crea tu cuenta</h3>
-                                <p>Registrarse es el primer paso para poder acceder<br>  a nuestro catalogo vomerc.</p>
+                                <p>Registrarse es el primer paso para poder <br> acceder a nuestro catalogo vomerc.</p>
                             </div>
                         </div>
                         <div class="list-item">
@@ -165,7 +173,7 @@
                             <i class="fas fa-cart-plus"></i>
                             <div class="list-content">
                                 <h3>Accede a un producto</h3>
-                                <p>Escoge un producto o servicio de los ofrecidos en nuestra <br> app, encontrarás muchos para elegir</p>
+                                <p>Escoge un producto o servicio de los <br> ofrecidos en nuestra app, encontrarás muchos para elegir</p>
                             </div>
                         </div>
                         <div class="list-item">
@@ -173,7 +181,7 @@
                             <i class="fas fa-comments"></i>
                             <div class="list-content">
                                 <h3>Contacta con el vendedor</h3>
-                                <p>Ponte en contacto directamente con el vendedor atrevés <br>de nuestro chat y compra sin ningún intermediario.</p>
+                                <p>Ponte en contacto directamente con el vendedor atrevés de nuestro <br> chat y compra sin ningún intermediario.</p>
                             </div>
                         </div>
                     </div>
@@ -181,7 +189,144 @@
             </div>
         </div>
     </section>
+    <!-- seccion 4 -->
+    <section id="feature" class="features-section padding">
+        <div class="container">
+            <div class="section-heading text-center mb-60">
+                <h2>Características avanzadas</h2>
+                <p>Es una app de comercio increíble, moderna e intuitiva para uso comercial,
+                    para comprar o vender el producto que quieras.</p>
+            </div>
+            <div class="row feature-wrap">
+                <div class="col-md-4 col-sm-6">
+                    <div class="feature-content text-center">
+                        <i class="icon-laptop"></i>
+                        <h3>Powerfull System</h3>
+                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 xs-padding">
+                    <div class="feature-content text-center">
+                        <i class="icon-anchor "></i>
+                        <h3>Personalization</h3>
+                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 xs-padding">
+                    <div class="feature-content text-center">
+                        <i class="icon-genius"></i>
+                        <h3>Ease Of Access</h3>
+                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 xs-padding">
+                    <div class="feature-content text-center">
+                        <i class="icon-clock"></i>
+                        <h3>Time &amp; Language</h3>
+                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 xs-padding">
+                    <div class="feature-content text-center">
+                        <i class="icon-layers"></i>
+                        <h3>Free Accounts</h3>
+                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 xs-padding">
+                    <div class="feature-content text-center">
+                        <i class="icon-refresh"></i>
+                        <h3>Updates &amp; Security</h3>
+                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 5 -->
+    <section id="screenshots" class="screenshots-section bg-grey padding transparencia">
+        <div class="container">
+            <div class="section-heading mb-60 text-center">
+                <h2>Capturas de pantalla</h2>
+                <p>Is amazing, modern and clean landing page for showcase <br> your app anything else.</p>
+            </div>
+            <div class="swiper-container swiper-container-horizontal">
+                <div class="mobile-mock">
+                    <div class="screen"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-560px, 0px, 0px);">
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-6.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="6" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-7.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="7" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-8.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-1.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="1" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-2.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="2" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-3.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide" data-swiper-slide-index="5" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-6.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="6" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-7.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="7" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-8.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-1.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-2.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-3.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
+                        <img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
+                    </div>
+                </div>
 
+                <div class="swiper-next" tabindex="0" role="button" aria-label="Next slide"><i class=" arrow_carrot-right"></i></div>
+                <div class="swiper-prev" tabindex="0" role="button" aria-label="Previous slide"><i class=" arrow_carrot-left"></i></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="got-top-container">
+        <div class="got-top-botton">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+    
+    <!-- script -->
+    <script src="js/index.js"></script>
 </body>
 
 </html>
