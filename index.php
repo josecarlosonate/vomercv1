@@ -201,43 +201,43 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="feature-content text-center">
                         <i class="icon-laptop"></i>
-                        <h3>Powerfull System</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                        <h3>Potente sistema</h3>
+                        <p>Esta herramienta es un sistema Enterprise con capacidad de despliegue en la nube y alta gestión de datos.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="feature-content text-center">
                         <i class="icon-anchor "></i>
-                        <h3>Personalization</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                        <h3>Personalización</h3>
+                        <p>Edita tu perfil, agrega tus productos favoritos, contacta directamente con el vendedor.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="feature-content text-center">
                         <i class="icon-genius"></i>
-                        <h3>Ease Of Access</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                        <h3>Facilidad de acceso</h3>
+                        <p>Registrate una unica vez con tu numero de celular y tendras acceso a todos los productos ofrecidos en Vomerc.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="feature-content text-center">
                         <i class="icon-clock"></i>
-                        <h3>Time &amp; Language</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                        <h3>Zona local</h3>
+                        <p>Los negocios y emprendedores dispondrán de más de 100 categorías para ofertar sus producto o servicios a nivel local.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="feature-content text-center">
                         <i class="icon-layers"></i>
-                        <h3>Free Accounts</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                        <h3>Cuentas Gratis</h3>
+                        <p>GRATUITAMENTE, podrán interactuar los negocios y personas, en una dinámica de compra y venta de productos y servicios.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="feature-content text-center">
                         <i class="icon-refresh"></i>
-                        <h3>Updates &amp; Security</h3>
-                        <p>Lorem ipsum dolor sit amet adipisicing of more of sedis do more eiusmod tempor incididunt.</p>
+                        <h3>Actualizaciones y seguridad</h3>
+                        <p>constantemente realizamos actualizaciones cuya misión es mejorar tanto aspectos de funcionalidad como de seguridad.</p>
                     </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@
         <div class="container">
             <div class="section-heading mb-60 text-center">
                 <h2>Capturas de pantalla</h2>
-                <p>Is amazing, modern and clean landing page for showcase <br> your app anything else.</p>
+                <p>Conoce mas de cerca esta increible aplicacion, mira algunos captures y animate a descargarla.</p>
             </div>
             <div class="swiper-container swiper-container-horizontal">
                 <div class="mobile-mock">
@@ -257,49 +257,49 @@
                 </div>
                 <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-560px, 0px, 0px);">
                     <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-6.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="6" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-7.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="7" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-8.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-1.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="1" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-2.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="2" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-3.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide" data-swiper-slide-index="5" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-6.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="6" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-7.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="7" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-8.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-1.jpg" alt="screenshot">
+                        <img class="w-100" src="img/marco3.png" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-2.jpg" alt="screenshot">
+                        <img class="w-100" src="img/screenshot-2.jpeg" alt="screenshot">
                     </div>
                     <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 36px; margin-right: 20px;">
                         <img class="w-100" src="img/screenshot-3.jpg" alt="screenshot">
@@ -318,12 +318,47 @@
             </div>
         </div>
     </section>
-
     <div class="got-top-container">
         <div class="got-top-botton">
             <i class="fas fa-chevron-up"></i>
         </div>
     </div>
+    <!--  footer -->
+    <footer>
+        <div class="container">
+            <div class="c">
+                <h4>VOMERC</h4>
+                <p>CENTRO COMERCIAL DIGITAL o marketplace donde, GRATUITAMENTE, podrán interactuar los negocios, emprendedores y personas, en una dinámica de compra y venta de productos y servicios.</p>
+            </div>
+            <div class="c">
+                <h4>NUESTRAS REDES</h4>
+                <div class="caja-icono">
+                    <div class="icono" title="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="icono" title="youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="icono" title="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="icono" title="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="c">
+                <h4>DESCARGAS</h4>
+                <div class="btn-group">
+                    <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore.png" alt="playsotre"></a>
+                </div>
+            </div>
+        </div>
+        <div class="acerca text-center">
+            <h6> Web desarrollada por &copy; <b>ELON SAS</b> Todos los derechos reservados  - tel: 324 409 5054</h6>
+        </div>
+    </footer>
     
     <!-- script -->
     <script src="js/index.js"></script>
