@@ -33,3 +33,8 @@ $(document).ready(function () {
         });
     });
     
+    setInterval(function(){
+        $('.slick-next').click();
+        // console.log('ok');
+        return false;
+    },3000);

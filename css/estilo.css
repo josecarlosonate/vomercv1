@@ -298,55 +298,10 @@ p {
     height: 50%;
 }
 
-/* .swiper-container {
-    padding: 3.58rem 0 7rem 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+/* .slick-next, .slick-prev {
+    background-color: black !important;
+    color: #FB0d07 !important;    
 } */
-/* .swiper-container .mobile-mock {
-    background: #fff;
-    border: 1px solid #edf4f8;
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    max-width: 240px;
-    left: 0;
-    right: 0;
-    width: 240px;
-    border-radius: 36px;
-    padding: 55px 0;
-    -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 rgb(66 77 86 / 50%), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgb(0 0 0 / 50%);
-    box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 rgb(66 77 86 / 50%), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgb(0 0 0 / 50%);
-} */
-/* .swiper-container .mobile-mock .screen {
-    width: 90%;
-    margin: 0 auto;
-} */
-/* .swiper-container .screen {
-    width: 212px;
-    height: 376px;
-    margin: 0 auto;
-    -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 2px 6px rgb(0 0 0 / 3%);
-    box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 2px 6px rgb(0 0 0 / 3%);
-} */
-/* .swiper-container .mobile-mock .circle {
-    position: absolute;
-    left: 50%;
-    -webkit-box-shadow: 0 0 1px 2px #e3e8eb inset;
-    box-shadow: 0 0 1px 2px #e3e8eb inset;
-    border: 1px solid #edf4f8;
-    border-radius: 50%;
-    bottom: 1.75%;
-    height: 0;
-    margin-left: -18px;
-    padding-top: 36px;
-    width: 36px;
-} */
-
 
 /* boton flotante subir  */
 .got-top-container{
