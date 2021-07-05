@@ -70,30 +70,34 @@
                     <div class="card card-body">
                         <ul class="navbar-nav text-center" id="nav">
                             <li class="nav-item">
-                                <a class="nav-link active js-scroll-trigger enlaces" aria-current="page" href="#about">Inicio</a>
+                                <a class="nav-link active js-scroll-trigger enlaces linkhome" aria-current="page" href="#about">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#feature" class="nav-link js-scroll-trigger enlaces">Características</a>
+                                <a href="#funcionamiento" id="" class="nav-link js-scroll-trigger enlaces linkFuncionamiento">Como Funciona</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#screenshots" class="nav-link js-scroll-trigger enlaces">Capturas de pantalla</a>
+                                <a href="#feature" id="" class="nav-link js-scroll-trigger enlaces linkFeature">Características</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#descarga" class="nav-link js-scroll-trigger enlaces">Descargar</a>
+                                <a href="#screenshots" class="nav-link js-scroll-trigger enlaces linkscreenshots">Capturas de pantalla</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#opiniones" class="nav-link js-scroll-trigger enlaces">Opiniones</a>
+                                <a href="#descarga" class="nav-link js-scroll-trigger enlaces linkdescarga">Descargar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#opiniones" class="nav-link js-scroll-trigger enlaces linkopiniones">Opiniones</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <ul class="nav nav-pills mb-2" id="collapseNa">
-                    <li class="nav-item"><a class="nav-link active js-scroll-trigger enlaces" aria-current="page" href="#about">Inicio</a></li>
-                    <li class="nav-item"><a href="#feature" class="nav-link js-scroll-trigger enlaces">Características</a></li>
-                    <li class="nav-item"><a href="#screenshots" class="nav-link js-scroll-trigger enlaces">Capturas de pantalla</a></li>
-                    <li class="nav-item"><a href="#descarga" class="nav-link js-scroll-trigger enlaces">Descargar</a></li>
-                    <li class="nav-item"><a href="#opiniones" class="nav-link js-scroll-trigger enlaces">Opiniones</a></li>
+                    <li class="nav-item"><a class="nav-link active js-scroll-trigger enlaces linkhome" aria-current="page" href="#about">Inicio</a></li>
+                    <li class="nav-item"><a href="#funcionamiento" class="nav-link js-scroll-trigger enlaces linkFuncionamiento">Como Funciona</a></li>
+                    <li class="nav-item"><a href="#feature" class="nav-link js-scroll-trigger enlaces linkFeature">Características</a></li>
+                    <li class="nav-item"><a href="#screenshots" class="nav-link js-scroll-trigger enlaces linkscreenshots">Capturas de pantalla</a></li>
+                    <li class="nav-item"><a href="#descarga" class="nav-link js-scroll-trigger enlaces linkdescarga">Descargar</a></li>
+                    <li class="nav-item"><a href="#opiniones" class="nav-link js-scroll-trigger enlaces linkopiniones">Opiniones</a></li>
                 </ul>
 
             </nav>
@@ -108,7 +112,7 @@
                 <p>Cualquier persona tendrá acceso a una gran <br> cantidad de productos y servicios.</p>
                 <div class="btn-group">
                     <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore.png" alt="playsotre"></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore2.png" alt="playsotre"></a>
                 </div>
             </div>
         </div>
@@ -148,7 +152,7 @@
         </div>
     </section>
     <!-- seccion 3 -->
-    <section class="content-section transparencia padding">
+    <section id="funcionamiento" class="content-section transparencia padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -292,7 +296,7 @@
             <div class="">
                 <div class="btn-group">
                     <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore.png" alt="playsotre"></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore2.png" alt="playsotre"></a>
                 </div>
             </div>
         </div>
@@ -300,6 +304,10 @@
     <!-- seccion 7 (opiniones) -->
     <section id="opiniones" class="padding transparencia">
         <div class="container">
+            <div class="section-heading text-center mb-60">
+                <h2>Opininones de nuestros usuarios</h2>
+                <p>Alguno de nuestros usuarios opinaron sobre Vomerc, conoce lo que ellos piensan.</p>
+            </div>
             <div class="row comentarios">
                 <!-- comentario 1 -->
                 <div class="card bg-light mb-3 mr-5 p-0 col-sm-3">
@@ -406,6 +414,27 @@
                         <i class="fa fa-star text-success"></i>
                     </div>
                 </div>
+                <!-- comentario 6 -->
+                <div class="card bg-light mb-3 mr-5 p-0 col-sm-3">
+                    <div class="card-header text-uppercase">
+                        karen camargo
+                        <span class="text-right ml-3">
+                            <img src="https://play-lh.googleusercontent.com/a-/AOh14GiaXEeiijq5VA-JIHlpPaGM-enJQgD7UOEwiAccc1w=w48-h48-n-rw" class="img-fluid rounded-circle" width="15%">
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <small class="card-text">
+                            Esta es la herramienta que estábamos necesitando los emprendedores para ampliar nuestra cliientela a nivel local.
+                        </small>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -425,29 +454,39 @@
                 <h4>NUESTRAS REDES</h4>
                 <div class="caja-icono">
                     <div class="icono" title="facebook">
-                        <i class="fab fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/vomerc" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                     </div>
                     <div class="icono" title="youtube">
-                        <i class="fab fa-youtube"></i>
+                        <a href="https://www.youtube.com/channel/UCtK3Ph_aaPHbzoNH_CV87qQ" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
                     </div>
                     <div class="icono" title="twitter">
-                        <i class="fab fa-twitter"></i>
+                        <a href="https://twitter.com/Vomerc_app" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
                     </div>
                     <div class="icono" title="instagram">
-                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/vomerc_app/?hl=es-la" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                     </div>
+                    <br>
+                    <span><i class="fab fa-whatsapp"></i>: +57 3153302682</span>
+                    <span><i class="fab fa-whatsapp"></i>: +57 3104955163</span>
+                    <!-- <div class="icono" title="whatsapp">
+                        <a href="https://wa.me/573153302682" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="icono" title="whatsapp 2">
+                        <a href="https://wa.me/573104955163" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                    </div> -->
                 </div>
             </div>
             <div class="c">
                 <h4>DESCARGAS</h4>
                 <div class="btn-group">
                     <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore.png" alt="playsotre"></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore2.png" alt="playsotre"></a>
                 </div>
             </div>
         </div>
         <div class="acerca text-center">
-            <h6> Web desarrollada por &copy; <b>ELON SAS</b> Todos los derechos reservados - tel: 324 409 5054</h6>
+            <h6> &copy; <b>VOMERC</b> Todos los derechos reservados - info@vomerc.com - juridica@vomerc.com 
+            <br> Desarrollador Web Jose Rodriguez - tel: 324 409 5054 </h6>
         </div>
     </footer>
 

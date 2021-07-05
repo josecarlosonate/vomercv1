@@ -271,6 +271,7 @@ p {
     background-color: hsl(360, 50%, 94%);
     padding: 40px 30px;
     transition: all 0.2s ease-in-out;
+    border-radius: 11px;
 }
 
 .feature-content i {
@@ -366,6 +367,13 @@ p {
     }
 }
 /* seccion 7 */
+.card{
+    border-radius: 11px;
+}
+#opiniones .container{
+    margin: 0 auto;
+    justify-content: center;
+}
 
 
 /* footer */
@@ -416,6 +424,9 @@ footer .container .c .icono{
 footer .container .c .icono:hover{
     cursor: pointer;
     background-color: rgb(197, 67, 67);
+}
+footer .container .c i{
+    color: white;
 }
 
 footer .acerca{
@@ -471,7 +482,7 @@ footer .acerca h6{
     .promo-content {
         margin: 21px 0px;
     }
-
+    
     .card-body {
         margin-bottom: 7px;
     }
@@ -586,5 +597,8 @@ footer .acerca h6{
     }
     #collapseNavbar{
         display: none;
+    }
+    #opiniones .container .comentarios{
+        padding-left: 100px;
     }
 }

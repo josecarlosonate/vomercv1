@@ -33,8 +33,121 @@ $(document).ready(function () {
         });
     });
     
-    // setInterval(function(){
-    //     $('.slick-next').click();
-    //     // console.log('ok');
-    //     return false;
-    // },3000);
+    setInterval(function(){
+        console.log(document.documentElement.scrollTop);
+        if(document.documentElement.scrollTop < 907){
+            $('.linkhome').css("background-color", "#FB0d07");
+            $('.linkhome').css("color", "#fff");
+
+            $('.linkFuncionamiento').css("background-color", "#ffffff");
+            $('.linkFuncionamiento').css("color", "red");
+
+            $('.linkFeature').css("background-color", "#ffffff");
+            $('.linkFeature').css("color", "red");
+
+            $('.linkscreenshots').css("background-color", "#ffffff");
+            $('.linkscreenshots').css("color", "red");
+
+            $('.linkdescarga').css("background-color", "#ffffff");
+            $('.linkdescarga').css("color", "red");
+
+            $('.linkopiniones').css("background-color", "#ffffff");
+            $('.linkopiniones').css("color", "red");
+        }
+
+        if(document.documentElement.scrollTop >= 907 && document.documentElement.scrollTop < 1638){
+            $('.linkhome').css("background-color", "#ffffff");
+            $('.linkhome').css("color", "red");
+
+            $('.linkFuncionamiento').css("background-color", "#FB0d07");
+            $('.linkFuncionamiento').css("color", "#fff");
+
+            $('.linkFeature').css("background-color", "#ffffff");
+            $('.linkFeature').css("color", "red");
+
+            $('.linkscreenshots').css("background-color", "#ffffff");
+            $('.linkscreenshots').css("color", "red");
+
+            $('.linkdescarga').css("background-color", "#ffffff");
+            $('.linkdescarga').css("color", "red");
+
+            $('.linkopiniones').css("background-color", "#ffffff");
+            $('.linkopiniones').css("color", "red");
+        }
+        if(document.documentElement.scrollTop >= 1638 && document.documentElement.scrollTop < 2469){
+            $('.linkhome').css("background-color", "#ffffff");
+            $('.linkhome').css("color", "red");
+
+            $('.linkFuncionamiento').css("background-color", "#ffffff");
+            $('.linkFuncionamiento').css("color", "red");
+
+            $('.linkFeature').css("background-color", "#FB0d07");
+            $('.linkFeature').css("color", "#fff");
+
+            $('.linkscreenshots').css("background-color", "#ffffff");
+            $('.linkscreenshots').css("color", "red");
+
+            $('.linkdescarga').css("background-color", "#ffffff");
+            $('.linkdescarga').css("color", "red");
+
+            $('.linkopiniones').css("background-color", "#ffffff");
+            $('.linkopiniones').css("color", "red");
+        }
+        if(document.documentElement.scrollTop >= 2469 && document.documentElement.scrollTop < 3184){
+            $('.linkhome').css("background-color", "#ffffff");
+            $('.linkhome').css("color", "red");
+
+            $('.linkFuncionamiento').css("background-color", "#ffffff");
+            $('.linkFuncionamiento').css("color", "red");
+
+            $('.linkFeature').css("background-color", "#ffffff");
+            $('.linkFeature').css("color", "red");
+
+            $('.linkscreenshots').css("background-color", "#FB0d07");
+            $('.linkscreenshots').css("color", "#fff");
+
+            $('.linkdescarga').css("background-color", "#ffffff");
+            $('.linkdescarga').css("color", "red");
+
+            $('.linkopiniones').css("background-color", "#ffffff");
+            $('.linkopiniones').css("color", "red");
+        }
+        if(document.documentElement.scrollTop >= 3184 && document.documentElement.scrollTop < 3565){
+            $('.linkhome').css("background-color", "#ffffff");
+            $('.linkhome').css("color", "red");
+
+            $('.linkFuncionamiento').css("background-color", "#ffffff");
+            $('.linkFuncionamiento').css("color", "red");
+
+            $('.linkFeature').css("background-color", "#ffffff");
+            $('.linkFeature').css("color", "red");
+
+            $('.linkscreenshots').css("background-color", "#ffffff");
+            $('.linkscreenshots').css("color", "red");
+
+            $('.linkdescarga').css("background-color", "#FB0d07");
+            $('.linkdescarga').css("color", "#fff");
+
+            $('.linkopiniones').css("background-color", "#ffffff");
+            $('.linkopiniones').css("color", "red");
+        }
+        if(document.documentElement.scrollTop >= 3565){
+            $('.linkhome').css("background-color", "#ffffff");
+            $('.linkhome').css("color", "red");
+
+            $('.linkFuncionamiento').css("background-color", "#ffffff");
+            $('.linkFuncionamiento').css("color", "red");
+
+            $('.linkFeature').css("background-color", "#ffffff");
+            $('.linkFeature').css("color", "red");
+
+            $('.linkscreenshots').css("background-color", "#ffffff");
+            $('.linkscreenshots').css("color", "red");
+
+            $('.linkdescarga').css("background-color", "#ffffff");
+            $('.linkdescarga').css("color", "red");
+
+            $('.linkopiniones').css("background-color", "#FB0d07");
+            $('.linkopiniones').css("color", "#fff");
+        }
+    },1000);
