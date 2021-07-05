@@ -510,6 +510,13 @@ footer .acerca h6{
         text-align: center;
         justify-content: center;
     }
+    .comentarios{
+        margin: 0 auto;
+    }
+    .card{
+        margin: 3px auto !important;
+        
+    }
 }
 
 @media (min-width: 568px) and (max-width: 992px){
