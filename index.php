@@ -79,10 +79,10 @@
                                 <a href="#screenshots" class="nav-link js-scroll-trigger enlaces">Capturas de pantalla</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link js-scroll-trigger enlaces">Descargar</a>
+                                <a href="#descarga" class="nav-link js-scroll-trigger enlaces">Descargar</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link js-scroll-trigger enlaces">Opiniones</a>
+                                <a href="#opiniones" class="nav-link js-scroll-trigger enlaces">Opiniones</a>
                             </li>
                         </ul>
                     </div>
@@ -92,8 +92,8 @@
                     <li class="nav-item"><a class="nav-link active js-scroll-trigger enlaces" aria-current="page" href="#about">Inicio</a></li>
                     <li class="nav-item"><a href="#feature" class="nav-link js-scroll-trigger enlaces">Características</a></li>
                     <li class="nav-item"><a href="#screenshots" class="nav-link js-scroll-trigger enlaces">Capturas de pantalla</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link js-scroll-trigger enlaces">Descargar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link js-scroll-trigger enlaces">Opiniones</a></li>
+                    <li class="nav-item"><a href="#descarga" class="nav-link js-scroll-trigger enlaces">Descargar</a></li>
+                    <li class="nav-item"><a href="#opiniones" class="nav-link js-scroll-trigger enlaces">Opiniones</a></li>
                 </ul>
 
             </nav>
@@ -141,7 +141,7 @@
                         <!-- <i class="fas fa-align-justify"></i> -->
                         <img src="img/ico6.svg" alt="">
                         <h3>Asesoria gratis</h3>
-                        <p>Recibe asesoría personalizada por parte del ofertante, podras interactuar directamente con el vendedor atraves de nuestro chat.</p>
+                        <p>Recibe asesoría personalizada por parte del ofertante, podras interactuar directamente con el vendedor a través de nuestro chat.</p>
                     </div>
                 </div>
             </div>
@@ -220,14 +220,14 @@
                     <div class="feature-content text-center">
                         <i class="icon-genius"></i>
                         <h3>Facilidad de acceso</h3>
-                        <p>Registrate una unica vez con tu numero de celular y tendras acceso a todos los productos ofrecidos en Vomerc.</p>
+                        <p>Regístrate una única vez con tu número de celular y tendrás acceso a todos los productos ofrecidos en Vomerc.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="feature-content text-center">
                         <i class="icon-clock"></i>
                         <h3>Zona local</h3>
-                        <p>Los negocios y emprendedores dispondrán de más de 100 categorías para ofertar sus producto o servicios a nivel local.</p>
+                        <p>Los negocios y emprendedores dispondrán de más de 100 categorías para ofertar sus productos o servicios a nivel local.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
@@ -241,7 +241,7 @@
                     <div class="feature-content text-center">
                         <i class="icon-refresh"></i>
                         <h3>Actualizaciones y seguridad</h3>
-                        <p>constantemente realizamos actualizaciones cuya misión es mejorar tanto aspectos de funcionalidad como de seguridad.</p>
+                        <p>Constantemente realizamos actualizaciones cuya misión es mejorar tanto aspectos de funcionalidad como de seguridad.</p>
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
         <div class="container">
             <div class="section-heading mb-60 text-center">
                 <h2>Capturas de pantalla</h2>
-                <p>Conoce mas de cerca esta increible aplicacion, mira algunos captures y animate a descargarla.</p>
+                <p>Conoce más de cerca esta increíble aplicación, mira algunos captures y anímate a descargarla.</p>
             </div>
             <ul class="single-item">
                 <li class="">
@@ -280,6 +280,133 @@
                     <img src="img/v3.png" alt="">
                 </li>
             </ul>
+        </div>
+    </section>
+    <!-- seccion 6 (descarga) -->
+    <section id="descarga" class="features-section padding">
+        <div class="container d-flex p-2 justify-content-around" id="caja-descarga">
+            <div class="">
+                <h1>Disponible para su descarga <br>en la Play Store</h1>
+                <p>En el botón de Google Play iras directamente <br> a nuestra app.</p>
+            </div>
+            <div class="">
+                <div class="btn-group">
+                    <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.vomerc.vomerc&hl=es_CO&gl=US"><img src="img/playstore.png" alt="playsotre"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion 7 (opiniones) -->
+    <section id="opiniones" class="padding transparencia">
+        <div class="container">
+            <div class="row comentarios">
+                <!-- comentario 1 -->
+                <div class="card bg-light mb-3 mr-5 p-0 col-sm-3">
+                    <div class="card-header text-uppercase">
+                        Joan Fuentes
+                        <span class="text-right ml-3">
+                            <img src="https://play-lh.googleusercontent.com/a-/AOh14Ghf2-RcEz8wm22A6CPibfUvkhn-5vcuI2fSAidZJg=w48-h48-n-rw" class="img-fluid rounded-circle" width="15%">
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <small class="card-text">
+                        La idea es buena, pero deberia existir un menu con las categorías ordenado. Es muy tedioso tener que ir bajando para encontrar las categorías.
+                        </small>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                    </div>
+                </div>
+                <!-- comentario 2 -->
+                <div class="card bg-light mb-3 mr-5 p-0 col-sm-3">
+                    <div class="card-header text-uppercase">
+                        Alexander Mesa
+                        <span class="text-right ml-3">
+                            <img src="https://play-lh.googleusercontent.com/a-/AOh14GgRW0p3sK0pYX_dUqdqPqSaOAL9Ra_XGhrTplxz6w=w48-h48-n-rw" class="img-fluid rounded-circle" width="15%">
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <small class="card-text">
+                            Excelente aplicación, muy útil y su uso es bastante fácil, super recomendada.
+                        </small>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                    </div>
+                </div>
+                <!-- comentario 3 -->
+                <div class="card bg-light mb-3 mr-5 p-0 col-sm-3">
+                    <div class="card-header text-uppercase">
+                        Anchy Gama
+                        <span class="text-right ml-3">
+                            <img src="https://play-lh.googleusercontent.com/a-/AOh14Gi9oOP6VSL0tGZx8Czk7fQx-ucrJdq7suUdVIMiCg=w48-h48-n-rw" class="img-fluid rounded-circle" width="15%">
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <small class="card-text">
+                            Muy practica y con funciones específicas que le dan al usuario una mejor experiencia al momento de buscar o vender un servicio.
+                        </small>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                    </div>
+                </div>
+                <!-- comentario 4 -->
+                <div class="card bg-light mb-3 mr-5 p-0 col-sm-3">
+                    <div class="card-header text-uppercase">
+                        William Poveda
+                        <span class="text-right ml-3">
+                            <img src="https://play-lh.googleusercontent.com/a-/AOh14GgEuA0DYl_qkuP4Pzp6A0hSywZumEx47kvnUoOYVw=w48-h48-n-rw" class="img-fluid rounded-circle" width="15%">
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <small class="card-text">
+                            Muy buena app, puedo hablar directamente con el vendedor y llegar a un acuerdo beneficioso para los dos.
+                        </small>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                    </div>
+                </div>
+                <!-- comentario 5 -->
+                <div class="card bg-light mb-3 mr-5 p-0 col-sm-3">
+                    <div class="card-header text-uppercase">
+                        Ramon Brun
+                        <span class="text-right ml-3">
+                            <img src="https://play-lh.googleusercontent.com/a-/AOh14GiX0C1b2_tS-y5Btf8Najzs_jH7ROoI3ZPQKqq_nQ=w48-h48-n-rw" class="img-fluid rounded-circle" width="15%">
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <small class="card-text">
+                            Muy bueno App, impulsando el mercado local a pequeñas y grandes empresas.
+                        </small>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                        <i class="fa fa-star text-success"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <div class="got-top-container">
@@ -329,7 +456,7 @@
     <script type="text/javascript">
         $('.single-item').slick({
             centerMode: true,
-            centerPadding: '60px',
+            centerPadding: '70px',
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
