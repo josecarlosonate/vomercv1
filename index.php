@@ -361,7 +361,7 @@
                         <i class="fa fa-star text-success"></i>
                         <i class="fa fa-star text-success"></i>
                         <i class="fa fa-star text-success"></i>
-                        <i class="fa fa-star text-success"></i>
+                        <i class="fas fa-star-half-alt text-success"></i>
                     </div>
                 </div>
                 <!-- comentario 4 -->
