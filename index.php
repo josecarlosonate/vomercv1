@@ -465,12 +465,12 @@
                     <div class="icono" title="instagram">
                         <a href="https://www.instagram.com/vomerc_app/?hl=es-la" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <br>
+                    <!-- <br>
                     <span><i class="fab fa-whatsapp"></i>: +57 3153302682</span>
-                    <span><i class="fab fa-whatsapp"></i>: +57 3104955163</span>
-                    <!-- <div class="icono" title="whatsapp">
+                    <span><i class="fab fa-whatsapp"></i>: +57 3104955163</span> -->
+                     <div class="icono" title="whatsapp">
                         <a href="https://wa.me/573153302682" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
-                    </div>
+                    </div><!--
                     <div class="icono" title="whatsapp 2">
                         <a href="https://wa.me/573104955163" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
                     </div> -->
