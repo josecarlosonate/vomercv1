@@ -294,8 +294,11 @@ p {
 .screenshots-section {
     padding-bottom: 53px;
 }
+#carouselExampleControls{
+    height: 50%;
+}
 
-.swiper-container {
+/* .swiper-container {
     padding: 3.58rem 0 7rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -303,7 +306,7 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-}
+} */
 /* .swiper-container .mobile-mock {
     background: #fff;
     border: 1px solid #edf4f8;
@@ -343,6 +346,8 @@ p {
     padding-top: 36px;
     width: 36px;
 } */
+
+
 /* boton flotante subir  */
 .got-top-container{
 	position: fixed;
@@ -523,6 +528,10 @@ footer .acerca h6{
         width: 2rem;
         height: 2rem;
     }
+    .single-item li img{
+        max-width: 100%;
+        max-height: 100%;
+    }
     footer{
         height: auto;
     }
@@ -568,6 +577,26 @@ footer .acerca h6{
         right: 1.5rem;
         width: 2rem;
         height: 2rem;
+    }
+    .single-item li img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    footer{
+        height: auto;
+    }
+    footer .container{
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer .container .c{
+        flex-basis: 100%;
+        margin-top: 5px;
+    }
+    footer .container .c .caja-icono{
+        text-align: center;
+        justify-content: center;
     }
 }
 

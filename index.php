@@ -36,6 +36,10 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 
     <!--=====================================
@@ -66,7 +70,7 @@
                     <div class="card card-body">
                         <ul class="navbar-nav text-center" id="nav">
                             <li class="nav-item">
-                                <a  class="nav-link active js-scroll-trigger enlaces" aria-current="page" href="#about">Inicio</a>
+                                <a class="nav-link active js-scroll-trigger enlaces" aria-current="page" href="#about">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#feature" class="nav-link js-scroll-trigger enlaces">Características</a>
@@ -250,72 +254,32 @@
                 <h2>Capturas de pantalla</h2>
                 <p>Conoce mas de cerca esta increible aplicacion, mira algunos captures y animate a descargarla.</p>
             </div>
-            <div class="swiper-container swiper-container-horizontal">
-                <div class="mobile-mock">
-                    <div class="screen"></div>
-                    <div class="circle"></div>
-                </div>
-                <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-560px, 0px, 0px);">
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="6" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="7" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide" data-swiper-slide-index="1" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide" data-swiper-slide-index="2" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide" data-swiper-slide-index="5" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="6" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="7" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/marco3.png" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-2.jpeg" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-3.jpg" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-4.jpg" alt="screenshot">
-                    </div>
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 36px; margin-right: 20px;">
-                        <img class="w-100" src="img/screenshot-5.jpg" alt="screenshot">
-                    </div>
-                </div>
-
-                <div class="swiper-next" tabindex="0" role="button" aria-label="Next slide"><i class=" arrow_carrot-right"></i></div>
-                <div class="swiper-prev" tabindex="0" role="button" aria-label="Previous slide"><i class=" arrow_carrot-left"></i></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-            </div>
+            <ul class="single-item">
+                <li class="">
+                    <img src="img/v4.png" alt="">
+                </li>
+                <li>
+                    <img src="img/v2.png" alt="">
+                </li>
+                <li>
+                    <img src="img/v5.png" alt="">
+                </li>
+                <li>
+                    <img src="img/v6.png" alt="">
+                </li>
+                <li>
+                    <img src="img/v7.png" alt="">
+                </li>
+                <li>
+                    <img src="img/v8.png" alt="">
+                </li>
+                <li>
+                    <img src="img/v9.png" alt="">
+                </li>
+                <li>
+                    <img src="img/v3.png" alt="">
+                </li>
+            </ul>
         </div>
     </section>
     <div class="got-top-container">
@@ -356,11 +320,38 @@
             </div>
         </div>
         <div class="acerca text-center">
-            <h6> Web desarrollada por &copy; <b>ELON SAS</b> Todos los derechos reservados  - tel: 324 409 5054</h6>
+            <h6> Web desarrollada por &copy; <b>ELON SAS</b> Todos los derechos reservados - tel: 324 409 5054</h6>
         </div>
     </footer>
-    
+
     <!-- script -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.single-item').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
     <script src="js/index.js"></script>
 </body>
 
